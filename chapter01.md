@@ -125,9 +125,9 @@ in the head, there are performance and complexity reasons for putting it at the 
 the body.
   
 In the body, we have `<h1>My first application!</h1>`, which is first-level header
-text (which indicates the largest, most important text on the page), followed by a <p>
+text (which indicates the largest, most important text on the page), followed by a `<p>`
 (paragraph) tag, which contains some text, some of which is italic (denoted by the
-<i> tag).
+`<i>` tag).
 
 ## The JavaScript Console
 
