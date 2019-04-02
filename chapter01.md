@@ -77,4 +77,34 @@ ensure that the code samples will run, even if you aren’t using a browser that
 implemented ES6. In the following chapters, we will talk about how to write code in
 ES6 and “transcompile” it so that it will run on legacy browsers.
 
+Let’s start with the JavaScript file. Using a text editor, create a file called _main.js_. For
+now, let’s just put a single line in this file:
+
+```javascript
+console.log('main.js loaded');
+```
+
+Then create the CSS file, _main.css_. We don’t actually have anything to put in here yet,
+so we’ll just include a comment so we don’t have an empty file:
+
+```css
+/* Styles go here. */
+```
+
+Then create a file called _index.html_:
+
+```html
+<!doctype html>
+<html>
+   <head>
+     <link rel="stylesheet" href="main.css">
+   </head>
+<body>
+   <h1>My first application!</h1>
+   <p>Welcome to <i>Learning JavaScript, 3rd Edition</i>.</p>
+
+   <script src="main.js"></script>
+</body>
+</html>
+```
 
